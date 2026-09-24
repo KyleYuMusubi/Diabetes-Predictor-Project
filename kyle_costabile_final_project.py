@@ -203,7 +203,7 @@ smoker = int(input("Have you smoked at least five packs worth of cigarettes in y
 heartDisease = int(input("Coronary heart disease (CHD) or myocardial infarction (MI)? 0 = no 1 = yes: "))
 physicalActivity = int(input("Have you been physical active in past 30 days - not including job? 0 = no 1 = yes: "))
 fruits = int(input("Do you consoume 1+ fruits a day? 0 = no 1 = yes: "))
-vegtables = int(input("Do you consoume 1+ vegtables a day? 0 = no 1 = yes: "))
+vegetables = int(input("Do you consoume 1+ vegetables a day? 0 = no 1 = yes: "))
 if sex == 1:
     alcohol = int(input("Do you consoume 14+ drinks per week? 0 = no 1 = yes: "))
 else:
@@ -218,7 +218,7 @@ highbp = int(input("Do you have high blood pressure? 0 = no 1 = yes: "))
 # Collect user input into a list
 user_input_list = [
     age, sex, cholesterol, checkChol, bmi, smoker, heartDisease,
-    physicalActivity, fruits, vegtables, alcohol, health, mental,
+    physicalActivity, fruits, vegetables, alcohol, health, mental,
     physical, walkDifficulty, stroke, highbp
 ]
 
